@@ -3,13 +3,6 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests">
-        <methods>
-          <include name="selectingTwoCheckboxesTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.checkboxespagetests.CheckboxesTests -->
       <class name="com.herokuapp.theinternet.loginpagetests.NegativeLogInTests">
         <methods>
           <include name="negativeTest"/>
@@ -17,79 +10,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.herokuapp.theinternet.loginpagetests.NegativeLogInTests -->
-      <class name="com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="sliderTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.horizontalslidertests.HorizontalSliderTests -->
-      <class name="com.herokuapp.theinternet.hoverstests.HoversTests">
-        <methods>
-          <include name="user2ProfileTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.hoverstests.HoversTests -->
-      <class name="com.herokuapp.theinternet.dropdowntests.DropdownTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="optionTwoTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.dropdowntests.DropdownTest -->
-      <class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests">
-        <methods>
-          <include name="pressKeyWithActionsTest"/>
-          <include name="pressKeyTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.keypressestests.KeyPressesTests -->
-      <class name="com.herokuapp.theinternet.alertstests.AlertsTests">
-        <methods>
-          <include name="jsDismissTest"/>
-          <include name="setUp"/>
-          <include name="jsAlertTest"/>
-          <include name="tearDown"/>
-          <include name="jsPromptTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.alertstests.AlertsTests -->
-      <class name="com.herokuapp.theinternet.windowstests.WindowsTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="newWindowTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.windowstests.WindowsTests -->
-      <class name="com.herokuapp.theinternet.loginpagetests.PositiveLogInTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="logInTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.loginpagetests.PositiveLogInTests -->
-      <class name="com.herokuapp.theinternet.uploadtests.UploadTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="imageUploadTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.uploadtests.UploadTests -->
-      <class name="com.herokuapp.theinternet.editortests.EditorTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="defaultEditorValueTest"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.editortests.EditorTests -->
-      <class name="com.herokuapp.theinternet.draganddroptests.DragAndDropTests">
-        <methods>
-          <include name="dragAToBTest"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.herokuapp.theinternet.draganddroptests.DragAndDropTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
