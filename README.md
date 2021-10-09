@@ -4,7 +4,8 @@
 * Help > Eclipse Marketplace... > Search "TestNG"
 
 ## Maven 
-Right-click the project > Run as... > TestNG test
+* Compile as pom.xml > right click > Maven > Update Project
+* Run the TCs by going to src/test/results > \*.xml > right click >  Run as... > TestNG test
 
 ## WebDrivers
 * [Linux Chrome WebDriver](https://chromedriver.storage.googleapis.com/index.html?path=92.0.4515.107/).
